@@ -23,8 +23,6 @@ class dht11(dht):
     def dht11Temperature(self):
         return self.buf[2]
 
-
-
 class dht22(dht):
     
     def dht22Humidity(self):
